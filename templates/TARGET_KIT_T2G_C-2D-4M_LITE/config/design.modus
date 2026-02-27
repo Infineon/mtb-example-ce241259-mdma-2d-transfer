@@ -1,481 +1,685 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.60.0" toolsPackage="ModusToolbox 3.6.0" xmlns="http://cypress.com/xsd/cydesignfile_v6">
+<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.70.0" toolsPackage="ModusToolbox 3.7.0" xmlns="http://cypress.com/xsd/cydesignfile_v7">
     <Devices>
-        <Device mpn="CYT4DNJBZS">
+        <Device mpn="CYT3DLBBHS">
             <BlockConfig>
                 <Block location="ioss[0].port[0].pin[0]">
-                    <Aliases>
-                        <Alias value="CYBSP_D1"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[0].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_D0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[0].pin[4]">
-                    <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_I2C_SDA"/>
-                        <Alias value="CYBSP_S2G0_I2C_SDA"/>
-                        <Alias value="CYBSP_S2G1_I2C_SDA"/>
-                        <Alias value="CYBSP_D15"/>
-                        <Alias value="CYBSP_I2C_SDA"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[0].pin[5]">
-                    <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_I2C_SCL"/>
-                        <Alias value="CYBSP_S2G0_I2C_SCL"/>
-                        <Alias value="CYBSP_S2G1_I2C_SCL"/>
-                        <Alias value="CYBSP_D14"/>
-                        <Alias value="CYBSP_I2C_SCL"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[1].pin[4]">
                     <Aliases>
                         <Alias value="CYBSP_WCO_IN"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[1].pin[5]">
+                <Block location="ioss[0].port[0].pin[1]">
                     <Aliases>
                         <Alias value="CYBSP_WCO_OUT"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[3].pin[1]">
+                <Block location="ioss[0].port[1].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G0_GPIO1"/>
+                        <Alias value="CYBSP_LED1"/>
+                        <Alias value="CYBSP_USER_LED1"/>
+                        <Alias value="CYBSP_USER_LED"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[3].pin[4]">
+                <Block location="ioss[0].port[1].pin[1]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G0_GPIO2"/>
+                        <Alias value="CYBSP_LED2"/>
+                        <Alias value="CYBSP_USER_LED2"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[4].pin[0]">
+                <Block location="ioss[0].port[1].pin[4]">
                     <Aliases>
-                        <Alias value="CYBSP_D7"/>
+                        <Alias value="CYBSP_MIKROBUS_SPI_MISO"/>
+                        <Alias value="CYBSP_J2_21"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[4].pin[1]">
+                <Block location="ioss[0].port[1].pin[5]">
                     <Aliases>
-                        <Alias value="CYBSP_D6"/>
+                        <Alias value="CYBSP_J2_24"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[4].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_D3"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[4].pin[3]">
-                    <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_PWM"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[4].pin[4]">
-                    <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_INT"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[4].pin[5]">
-                    <Aliases>
-                        <Alias value="CYBSP_D9"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[4].pin[6]">
+                <Block location="ioss[0].port[1].pin[6]">
                     <Aliases>
                         <Alias value="CYBSP_D8"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[4].pin[7]">
+                <Block location="ioss[0].port[1].pin[7]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G0_GPIO3"/>
+                        <Alias value="CYBSP_D9"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[5].pin[0]">
-                    <Aliases>
-                        <Alias value="CYBSP_D4"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_D5"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_CAN_RX"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[3]">
-                    <Aliases>
-                        <Alias value="CYBSP_CAN_TX"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[5]">
-                    <Aliases>
-                        <Alias value="CYBSP_S2G0_GPIO4"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[6]">
-                    <Aliases>
-                        <Alias value="CYBSP_D13"/>
-                        <Alias value="CYBSP_S2G0_I2C_SCLK"/>
-                        <Alias value="CYBSP_S2G1_I2C_SCLK"/>
-                        <Alias value="CYBSP_SPI_CLK"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[5].pin[7]">
-                    <Aliases>
-                        <Alias value="CYBSP_D11"/>
-                        <Alias value="CYBSP_S2G0_MOSI"/>
-                        <Alias value="CYBSP_S2G1_MOSI"/>
-                        <Alias value="CYBSP_SPI_MOSI"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[0]">
-                    <Aliases>
-                        <Alias value="CYBSP_D12"/>
-                        <Alias value="CYBSP_S2G0_MISO"/>
-                        <Alias value="CYBSP_S2G1_MISO"/>
-                        <Alias value="CYBSP_SPI_MISO"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_D10"/>
-                        <Alias value="CYBSP_SPI_SEL0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_S2G0_CS"/>
-                        <Alias value="CYBSP_S2G1_CS"/>
-                        <Alias value="CYBSP_SPI_SEL1"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[3]">
-                    <Aliases>
-                        <Alias value="CYBSP_A0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[4]">
-                    <Aliases>
-                        <Alias value="CYBSP_A1"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[6].pin[5]">
+                <Block location="ioss[0].port[2].pin[0]">
                     <Aliases>
                         <Alias value="CYBSP_A2"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[6].pin[6]">
+                <Block location="ioss[0].port[3].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_SWDOE_TDI"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[3].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_TRSTN"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_UART_RX"/>
+                        <Alias value="CYBSP_MIKROBUS_UART_RX"/>
+                        <Alias value="CYBSP_S2G1_UART_RX"/>
+                        <Alias value="CYBSP_J2_8"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_UART_TX"/>
+                        <Alias value="CYBSP_MIKROBUS_UART_TX"/>
+                        <Alias value="CYBSP_S2G1_UART_TX"/>
+                        <Alias value="CYBSP_J2_10"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_D7"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_MIKROBUS_SPI_CS"/>
+                        <Alias value="CYBSP_J2_26"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_A0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_A1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_D4"/>
+                        <Alias value="CYBSP_CAN_TX"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[4].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_D5"/>
+                        <Alias value="CYBSP_CAN_RX"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[5].pin[0]">
                     <Aliases>
                         <Alias value="CYBSP_A3"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[6].pin[7]">
+                <Block location="ioss[0].port[5].pin[1]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G0_AN1"/>
+                        <Alias value="CYBSP_D1"/>
+                        <Alias value="CYBSP_LIN_TX"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[7].pin[0]">
+                <Block location="ioss[0].port[5].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G0_AN2"/>
+                        <Alias value="CYBSP_D0"/>
+                        <Alias value="CYBSP_LIN_RX"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[7].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_S2G1_AN1"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[7].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_S2G1_AN2"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[7].pin[3]">
+                <Block location="ioss[0].port[5].pin[3]">
                     <Aliases>
                         <Alias value="CYBSP_MIKROBUS_AN"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[7].pin[4]">
+                <Block location="ioss[0].port[5].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_A4"/>
+                        <Alias value="CYBSP_D16"/>
+                        <Alias value="CYBSP_I2C_SDA"/>
+                        <Alias value="CYBSP_MIKROBUS_I2C_SDA"/>
+                        <Alias value="CYBSP_S2G0_I2C_SDA"/>
+                        <Alias value="CYBSP_S2G1_SDA"/>
+                        <Alias value="CYBSP_J2_27"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[5].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_A5"/>
+                        <Alias value="CYBSP_D17"/>
+                        <Alias value="CYBSP_I2C_SCL"/>
+                        <Alias value="CYBSP_MIKROBUS_I2C_SCL"/>
+                        <Alias value="CYBSP_S2G0_I2C_SCL"/>
+                        <Alias value="CYBSP_S2G1_SCL"/>
+                        <Alias value="CYBSP_J2_28"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[6].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_AN1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[6].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_AN2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[6].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G1_AN1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[6].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G1_AN2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[0]">
                     <Aliases>
                         <Alias value="CYBSP_POT"/>
                     </Aliases>
                 </Block>
+                <Block location="ioss[0].port[7].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_7"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_11"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_13"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_GPIO3"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_GPIO4"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_GPIO2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[7].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_GPIO1"/>
+                    </Aliases>
+                </Block>
                 <Block location="ioss[0].port[8].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G1_GPIO1"/>
+                        <Alias value="CYBSP_J2_15"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[8].pin[1]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G1_GPIO2"/>
+                        <Alias value="CYBSP_J2_29"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[8].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_S2G1_GPIO3"/>
+                        <Alias value="CYBSP_D6"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[8].pin[3]">
                     <Aliases>
+                        <Alias value="CYBSP_J2_36"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[8].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G1_GPIO3"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[8].pin[5]">
+                    <Aliases>
                         <Alias value="CYBSP_S2G1_GPIO4"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[8].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G1_GPIO2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[8].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G1_GPIO1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_32"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_22"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_J2_31"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_S2G0_SPI_CS"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_D13"/>
+                        <Alias value="CYBSP_SPI_CLK"/>
+                        <Alias value="CYBSP_S2G0_SPI_SCLK"/>
+                        <Alias value="CYBSP_S2G1_SPI_SCLK"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_D11"/>
+                        <Alias value="CYBSP_SPI_MOSI"/>
+                        <Alias value="CYBSP_S2G0_SPI_MOSI"/>
+                        <Alias value="CYBSP_S2G1_SPI_MOSI"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_D12"/>
+                        <Alias value="CYBSP_SPI_MISO"/>
+                        <Alias value="CYBSP_S2G0_SPI_MISO"/>
+                        <Alias value="CYBSP_S2G1_SPI_MISO"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[9].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_D10"/>
+                        <Alias value="CYBSP_SPI_CS"/>
+                        <Alias value="CYBSP_S2G1_SPI_CS"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[11].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_SPI_MISO"/>
+                        <Alias value="CYBSP_ETH_REF_CLK"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[11].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_D3"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[11].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_SPI_CLK"/>
+                        <Alias value="CYBSP_ETH_RXD0"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[11].pin[3]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_SPI_MOSI"/>
+                        <Alias value="CYBSP_ETH_RXD1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[11].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_ETH_TXD0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[11].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_ETH_TXD1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[11].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_ETH_TXEN"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[11].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_ETH_CRS_DV"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[12].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_CS"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[13].pin[0]">
-                    <Aliases>
                         <Alias value="CYBSP_ETH_MDC"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[13].pin[1]">
+                <Block location="ioss[0].port[12].pin[1]">
                     <Aliases>
                         <Alias value="CYBSP_ETH_MDIO"/>
                     </Aliases>
                 </Block>
+                <Block location="ioss[0].port[12].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_TX_MCK0"/>
+                        <Alias value="CYBSP_J2_18"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[12].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_TX_SCK0"/>
+                        <Alias value="CYBSP_J2_12"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[12].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_TX_FSYNC0"/>
+                        <Alias value="CYBSP_J2_35"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[12].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_TX_SD0"/>
+                        <Alias value="CYBSP_J2_40"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[12].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_RX_MCK0"/>
+                        <Alias value="CYBSP_J2_33"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[12].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_RX_SCK0"/>
+                        <Alias value="CYBSP_J2_16"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[13].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_RX_FSYNC0"/>
+                        <Alias value="CYBSP_J2_37"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[13].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_I2S_RX_SD0"/>
+                        <Alias value="CYBSP_J2_38"/>
+                    </Aliases>
+                </Block>
                 <Block location="ioss[0].port[13].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TXD_0"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE7"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[13].pin[3]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TXD_1"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE6"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[13].pin[4]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TX_CLK"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE5"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[13].pin[5]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_REF_CLK"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE4"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[13].pin[6]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TXD_2"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE3"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[13].pin[7]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TXD_3"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE2"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_TX_CTL"/>
+                        <Alias value="CYBSP_FX3_RGB_BLUE1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[14].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_BLUE0"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RX_CLK"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN7"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[3]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RXD_0"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN6"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[4]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RXD_1"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN5"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[5]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RXD_2"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN4"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[6]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RXD_3"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN3"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[14].pin[7]">
                     <Aliases>
-                        <Alias value="CYBSP_ETH_RX_CTL"/>
+                        <Alias value="CYBSP_FX3_RGB_GREEN2"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[23].pin[0]">
+                <Block location="ioss[0].port[15].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_GREEN1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_GREEN0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED7"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED6"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED5"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED4"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[6]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED3"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[15].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_RED0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_CLK"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_LVALID"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[4]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_VSYNC"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_DE"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[16].pin[7]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_GPIO0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[17].pin[0]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_GPIO1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[17].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_FX3_RGB_GPIO2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[18].pin[0]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA4"/>
-                        <Alias value="CYBSP_QSPI_DATA4"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[23].pin[1]">
+                <Block location="ioss[0].port[18].pin[1]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA2"/>
-                        <Alias value="CYBSP_QSPI_DATA2"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[23].pin[2]">
+                <Block location="ioss[0].port[18].pin[2]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA3"/>
-                        <Alias value="CYBSP_QSPI_DATA3"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[23].pin[3]">
+                <Block location="ioss[0].port[18].pin[3]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA5"/>
-                        <Alias value="CYBSP_QSPI_DATA5"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[23].pin[4]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI0_RWDS"/>
-                        <Alias value="CYBSP_QSPI_RWDS"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[24].pin[0]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI0_CLK_N"/>
-                        <Alias value="CYBSP_QSPI_CLK_N"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[24].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI0_CLK_P"/>
-                        <Alias value="CYBSP_QSPI_CLK_P"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[25].pin[0]">
+                <Block location="ioss[0].port[18].pin[4]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA0"/>
-                        <Alias value="CYBSP_QSPI_DATA0"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[25].pin[1]">
+                <Block location="ioss[0].port[18].pin[5]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA6"/>
-                        <Alias value="CYBSP_QSPI_DATA6"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[25].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI0_SEL0"/>
-                        <Alias value="CYBSP_QSPI_SEL0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[25].pin[3]">
+                <Block location="ioss[0].port[18].pin[6]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA1"/>
-                        <Alias value="CYBSP_QSPI_DATA1"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[25].pin[4]">
+                <Block location="ioss[0].port[18].pin[7]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI0_DATA7"/>
-                        <Alias value="CYBSP_QSPI_DATA7"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[25].pin[5]">
+                <Block location="ioss[0].port[19].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_QSPI0_SEL1"/>
-                        <Alias value="CYBSP_QSPI_SEL1"/>
+                        <Alias value="CYBSP_QSPI0_CLK"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[26].pin[0]">
+                <Block location="ioss[0].port[19].pin[1]">
+                    <Aliases>
+                        <Alias value="CYBSP_QSPI0_RWDS"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[19].pin[2]">
+                    <Aliases>
+                        <Alias value="CYBSP_QSPI0_SEL0"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[19].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_MIKROBUS_PWM"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[20].pin[0]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA4"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[26].pin[1]">
+                <Block location="ioss[0].port[20].pin[1]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA2"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[26].pin[2]">
+                <Block location="ioss[0].port[20].pin[2]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA3"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[26].pin[3]">
+                <Block location="ioss[0].port[20].pin[3]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA5"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[26].pin[4]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI1_RWDS"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[27].pin[0]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI1_CLK_N"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[27].pin[1]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI1_CLK_P"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[28].pin[0]">
+                <Block location="ioss[0].port[20].pin[4]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA0"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[28].pin[1]">
+                <Block location="ioss[0].port[20].pin[5]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA6"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[28].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_QSPI1_SEL0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[28].pin[3]">
+                <Block location="ioss[0].port[20].pin[6]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA1"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[28].pin[4]">
+                <Block location="ioss[0].port[20].pin[7]">
                     <Aliases>
                         <Alias value="CYBSP_QSPI1_DATA7"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[28].pin[5]">
+                <Block location="ioss[0].port[21].pin[0]">
                     <Aliases>
-                        <Alias value="CYBSP_QSPI1_SEL1"/>
+                        <Alias value="CYBSP_QSPI1_CLK"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[29].pin[0]">
+                <Block location="ioss[0].port[21].pin[1]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_UART_RX"/>
-                        <Alias value="CYBSP_S2G0_UART_RX"/>
-                        <Alias value="CYBSP_UART_RX"/>
+                        <Alias value="CYBSP_QSPI1_RWDS"/>
                     </Aliases>
                 </Block>
-                <Block location="ioss[0].port[29].pin[1]">
+                <Block location="ioss[0].port[21].pin[2]">
                     <Aliases>
-                        <Alias value="CYBSP_MIKROBUS_UART_TX"/>
-                        <Alias value="CYBSP_S2G0_UART_TX"/>
-                        <Alias value="CYBSP_UART_TX"/>
+                        <Alias value="CYBSP_QSPI1_SEL0"/>
                     </Aliases>
                 </Block>
-                <Personality template="dap" version="2.0" instance="cZ5_cpc5kBI">
+                <Block location="ioss[0].port[21].pin[3]">
+                    <Aliases>
+                        <Alias value="CYBSP_MIKROBUS_INT"/>
+                    </Aliases>
+                </Block>
+                <Personality template="dap" version="2.0" instance="nC0tldAlsag">
                     <Block location="cpuss[0].dap[0]" locked="true"/>
                     <Parameters>
                         <Param id="dbgMode" value="SWD"/>
@@ -483,7 +687,7 @@
                         <Param id="traceModeSerial" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="dmac" version="2.0" instance="DNjR_ik9iWI">
+                <Personality template="dmac" version="2.0" instance="NoX3w_8VZuk">
                     <Block location="cpuss[0].dmac[0].chan[0]" locked="true">
                         <Aliases>
                             <Alias value="MDMA"/>
@@ -492,7 +696,7 @@
                     <Parameters>
                         <Param id="BUFFERABLE" value="false"/>
                         <Param id="CHANNEL_PRIORITY" value="3"/>
-                        <Param id="CHAN_STATE_COMPL_0" value="CY_DMAC_CHANNEL_DISABLED"/>
+                        <Param id="CHAN_STATE_COMPL_0" value="CY_DMAC_CHANNEL_ENABLED"/>
                         <Param id="DATA_PREFETCH_0" value="false"/>
                         <Param id="DATA_TRANSFER_WIDTH_0" value="WordToWord"/>
                         <Param id="DESCR_NAME_0" value="Descriptor_0"/>
@@ -768,8 +972,92 @@
                         <Param id="inFlash" value="false"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pin" version="3.0" instance="Euja5_37z2I">
+                <Personality template="pin" version="3.0" instance="SsRlpMXphKA">
                     <Block location="ioss[0].port[0].pin[2]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_ECO_IN"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0" instance="fg0eAhY1HmI">
+                    <Block location="ioss[0].port[0].pin[3]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_ECO_OUT"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0" instance="SpLFwDTb5r8">
+                    <Block location="ioss[0].port[1].pin[2]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_RX"/>
+                            <Alias value="CYBSP_MIKROBUS_SPI_SCK"/>
+                            <Alias value="CYBSP_S2G0_UART_RX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0" instance="PMY6hT-xSLA">
+                    <Block location="ioss[0].port[1].pin[3]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_TX"/>
+                            <Alias value="CYBSP_MIKROBUS_SPI_MOSI"/>
+                            <Alias value="CYBSP_S2G0_UART_TX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0" instance="_glStV_hVLQ">
+                    <Block location="ioss[0].port[2].pin[1]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_USER_BTN1"/>
                             <Alias value="CYBSP_USER_BTN"/>
@@ -789,70 +1077,10 @@
                         <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pin" version="3.0" instance="MwaaxN3vfSE">
-                    <Block location="ioss[0].port[0].pin[3]" locked="true">
+                <Personality template="pin" version="3.0" instance="ExV9TCTQLDU">
+                    <Block location="ioss[0].port[2].pin[2]" locked="true">
                         <Aliases>
-                            <Alias value="CYBSP_USER_BTN2"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="Xl-dJZC0pQU">
-                    <Block location="ioss[0].port[1].pin[0]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_ECO_IN"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="jETffWH_LyM">
-                    <Block location="ioss[0].port[1].pin[1]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_ECO_OUT"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_ANALOG"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="LLJFZcb_-34">
-                    <Block location="ioss[0].port[2].pin[6]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_SWO"/>
+                            <Alias value="CYBSP_SWO_TDO"/>
                         </Aliases>
                     </Block>
                     <Parameters>
@@ -869,10 +1097,10 @@
                         <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pin" version="3.0" instance="4f6osSn-zlg">
-                    <Block location="ioss[0].port[3].pin[0]" locked="true">
+                <Personality template="pin" version="3.0" instance="LL4LFa6H01A">
+                    <Block location="ioss[0].port[2].pin[4]" locked="true">
                         <Aliases>
-                            <Alias value="CYBSP_SWDCK"/>
+                            <Alias value="CYBSP_SWCLK_TCLK"/>
                         </Aliases>
                     </Block>
                     <Parameters>
@@ -886,13 +1114,13 @@
                         <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
                         <Param id="sioOutputBuffer" value="true"/>
                         <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_TTL"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pin" version="3.0" instance="cEo25stE-2U">
-                    <Block location="ioss[0].port[3].pin[2]" locked="true">
+                <Personality template="pin" version="3.0" instance="YAtYGLe3dHc">
+                    <Block location="ioss[0].port[2].pin[5]" locked="true">
                         <Aliases>
-                            <Alias value="CYBSP_SWDIO"/>
+                            <Alias value="CYBSP_SWDIO_TMS"/>
                         </Aliases>
                     </Block>
                     <Parameters>
@@ -906,114 +1134,10 @@
                         <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
                         <Param id="sioOutputBuffer" value="true"/>
                         <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_TTL"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pin" version="3.0" instance="e_GlYdhaRVI">
-                    <Block location="ioss[0].port[7].pin[5]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_LED1"/>
-                            <Alias value="CYBSP_USER_LED1"/>
-                            <Alias value="CYBSP_USER_LED"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="bgILXa6r7rA">
-                    <Block location="ioss[0].port[7].pin[6]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_LED2"/>
-                            <Alias value="CYBSP_USER_LED2"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="9kQjQj30gpA">
-                    <Block location="ioss[0].port[7].pin[7]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_LED3"/>
-                            <Alias value="CYBSP_USER_LED3"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="8HPo8x0nzc0">
-                    <Block location="ioss[0].port[9].pin[0]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_DEBUG_UART_RX"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pin" version="3.0" instance="lSmL-LGDoIw">
-                    <Block location="ioss[0].port[9].pin[1]" locked="true">
-                        <Aliases>
-                            <Alias value="CYBSP_DEBUG_UART_TX"/>
-                        </Aliases>
-                    </Block>
-                    <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
-                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
-                        <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
-                        <Param id="inFlash" value="true"/>
-                        <Param id="initialState" value="1"/>
-                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
-                        <Param id="nonSec" value="1"/>
-                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
-                        <Param id="sioOutputBuffer" value="true"/>
-                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
-                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pclk_v2" version="1.0" instance="lc-x698APyw">
+                <Personality template="pclk_v2" version="1.0" instance="X6_mHyBURmE">
                     <Block location="peri[0].group[0].div_8[2]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_TRACE_CLK_DIV"/>
@@ -1025,7 +1149,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.0" instance="pQRj942CGa0">
+                <Personality template="pclk_v2" version="1.0" instance="5oI-jIM-urs">
                     <Block location="peri[0].group[1].div_8[0]" locked="true"/>
                     <Parameters>
                         <Param id="fracDivider" value="0"/>
@@ -1033,7 +1157,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="uart" version="3.0" instance="v5hkqdzpnoE">
+                <Personality template="uart" version="3.0" instance="I3FVpVNUIhs">
                     <Block location="scb[7]" locked="true">
                         <Aliases>
                             <Alias value="UART"/>
@@ -1087,23 +1211,23 @@
                         <Param id="inFlash" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="sysclocks" version="3.0" instance="40RHRVnafh4">
+                <Personality template="sysclocks" version="3.0" instance="kaIVqxbdvR4">
                     <Block location="srss[0].clock[0]" locked="true"/>
                 </Personality>
-                <Personality template="altsystick" version="3.0" instance="3x2c0grdRvE">
+                <Personality template="altsystick" version="3.0" instance="uVyH_f85gP0">
                     <Block location="srss[0].clock[0].altsystickclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="interval" value="1000"/>
+                        <Param id="interval" value="250000"/>
                         <Param id="sourceClock" value="imo"/>
                     </Parameters>
                 </Personality>
-                <Personality template="bakclk" version="3.0" instance="KMBUwBfzrGY">
+                <Personality template="bakclk" version="3.0" instance="LAb2hZQPFHg">
                     <Block location="srss[0].clock[0].bakclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="sourceClock" value="lfclk"/>
+                        <Param id="sourceClock" value="ilo"/>
                     </Parameters>
                 </Personality>
-                <Personality template="eco" version="3.0" instance="7TCVNJotpxI">
+                <Personality template="eco" version="3.0" instance="CRdNTZKbVHk">
                     <Block location="srss[0].clock[0].eco[0]" locked="true"/>
                     <Parameters>
                         <Param id="accuracyPpm" value="30"/>
@@ -1114,7 +1238,7 @@
                         <Param id="esr" value="50"/>
                     </Parameters>
                 </Personality>
-                <Personality template="fastclk" version="2.0" instance="t6IEg7ZNhZQ">
+                <Personality template="fastclk" version="2.0" instance="7jKSCKPFd0o">
                     <Block location="srss[0].clock[0].fastclk[0]" locked="true"/>
                     <Parameters>
                         <Param id="divider" value="1"/>
@@ -1122,15 +1246,7 @@
                         <Param id="intDivider" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="fastclk" version="2.0" instance="OAiHWfiWgWs">
-                    <Block location="srss[0].clock[0].fastclk[1]" locked="true"/>
-                    <Parameters>
-                        <Param id="divider" value="1"/>
-                        <Param id="fracDivider" value="0"/>
-                        <Param id="intDivider" value="1"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="fll" version="4.0" instance="aGay8pIc3jg">
+                <Personality template="fll" version="4.0" instance="3305sPoa43M">
                     <Block location="srss[0].clock[0].fll[0]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
@@ -1138,150 +1254,98 @@
                         <Param id="enableOutputDivider" value="false"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="FhC4qIlMVsg">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="tPzBGGFQwqg">
                     <Block location="srss[0].clock[0].hfclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="6"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="H6Vx6Fw3oc0">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="_rTq2LP5Vp0">
                     <Block location="srss[0].clock[0].hfclk[1]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="W6Zz3enw9UU">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="J1n2iQuHvSE">
                     <Block location="srss[0].clock[0].hfclk[2]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="7"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="hVqC-YvHse8">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="EArGGImpDAc">
                     <Block location="srss[0].clock[0].hfclk[3]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
-                        <Param id="divider" value="2"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
+                        <Param id="divider" value="1"/>
                         <Param id="sourceClockNumber" value="6"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="rIVOVAjxgPg">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="XmMwjZESk8E">
                     <Block location="srss[0].clock[0].hfclk[4]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
-                        <Param id="divider" value="4"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
-                        <Param id="sourceClockNumber" value="6"/>
+                        <Param id="divider" value="2"/>
+                        <Param id="sourceClockNumber" value="7"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="vJgowaKYFfc">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="6gYlFbWuOjc">
                     <Block location="srss[0].clock[0].hfclk[5]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="2"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="ugyYojdAB8A">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="jZz4dOSMkho">
                     <Block location="srss[0].clock[0].hfclk[6]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="2"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="E3qUl7h8Wu4">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="ZF5192rcFt8">
                     <Block location="srss[0].clock[0].hfclk[7]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="2"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="A9bhvp2Nn5Y">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="H6PbOglo2W0">
                     <Block location="srss[0].clock[0].hfclk[8]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="3"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="lMdr5YbgBgU">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="6VDDL-eNQFE">
                     <Block location="srss[0].clock[0].hfclk[9]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="3"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="EaHzNyQqFqk">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="saUvhxWqML4">
                     <Block location="srss[0].clock[0].hfclk[10]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="4"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="sg_sMT8uwqk">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="exnYt_0zYr0">
                     <Block location="srss[0].clock[0].hfclk[11]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="5"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="W_2UjxuAisc">
+                <Personality template="hfclk_t2g2d6m" version="1.0" instance="v0xU9KqKscU">
                     <Block location="srss[0].clock[0].hfclk[12]" locked="true"/>
                     <Parameters>
-                        <Param id="ClkHfCsv" value="false"/>
-                        <Param id="accuracyCsv" value="99"/>
-                        <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
-                        <Param id="sourceClockCsv" value="IMO"/>
                         <Param id="sourceClockNumber" value="8"/>
                     </Parameters>
                 </Personality>
-                <Personality template="hfclk" version="3.0" instance="p2OQmbElWsg">
+                <Personality template="hfclk" version="3.0" instance="0PC1fYOVNNI">
                     <Block location="srss[0].clock[0].hfclk[13]" locked="true"/>
                     <Parameters>
                         <Param id="ClkHfCsv" value="false"/>
@@ -1292,25 +1356,25 @@
                         <Param id="sourceClockNumber" value="9"/>
                     </Parameters>
                 </Personality>
-                <Personality template="ilo" version="3.0" instance="du8dYeGDVOY">
+                <Personality template="ilo" version="3.0" instance="se9AI_CmnZM">
                     <Block location="srss[0].clock[0].ilo[0]" locked="true"/>
                     <Parameters>
                         <Param id="hibernate" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="ilo" version="3.0" instance="MqsICN0fOm4">
+                <Personality template="ilo" version="3.0" instance="zk5K_LhK5S0">
                     <Block location="srss[0].clock[0].ilo[1]" locked="true"/>
                     <Parameters>
                         <Param id="hibernate" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="imo" version="3.0" instance="pvrQXhQVICw">
+                <Personality template="imo" version="3.0" instance="3bsPGwN6xdE">
                     <Block location="srss[0].clock[0].imo[0]" locked="true"/>
                     <Parameters>
                         <Param id="trim" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="lfclk" version="3.0" instance="uUdo4wiPqVc">
+                <Personality template="lfclk" version="3.0" instance="gOdUim6Afhc">
                     <Block location="srss[0].clock[0].lfclk[0]" locked="true"/>
                     <Parameters>
                         <Param id="ClkLfCsv" value="false"/>
@@ -1319,129 +1383,129 @@
                         <Param id="sourceClockCsv" value="IMO"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40memclk" version="1.0" instance="uqafG3EDPXY">
+                <Personality template="mxs40memclk" version="1.0" instance="H-KbQoBPgRw">
                     <Block location="srss[0].clock[0].memclk[0]" locked="true"/>
                     <Parameters>
                         <Param id="divider" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="qDqV0xGdcJg">
+                <Personality template="pathmux" version="3.0" instance="uNrLdtIz720">
                     <Block location="srss[0].clock[0].pathmux[0]" locked="true"/>
                     <Parameters>
-                        <Param id="sourceClock" value="eco"/>
+                        <Param id="sourceClock" value="imo"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="KHyYrW8rnto">
+                <Personality template="pathmux" version="3.0" instance="rUKYSWHyDiA">
                     <Block location="srss[0].clock[0].pathmux[1]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="q81OfMr5NHs">
+                <Personality template="pathmux" version="3.0" instance="G7MQ0eQ9yqw">
                     <Block location="srss[0].clock[0].pathmux[2]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="qdVIxoDX8yw">
+                <Personality template="pathmux" version="3.0" instance="SKfabUeYSeo">
                     <Block location="srss[0].clock[0].pathmux[3]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="GmgM55Hfx7c">
+                <Personality template="pathmux" version="3.0" instance="iW27XA0GoT0">
                     <Block location="srss[0].clock[0].pathmux[4]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="KXjIUgTDoAg">
+                <Personality template="pathmux" version="3.0" instance="vyC5nH4ntHs">
                     <Block location="srss[0].clock[0].pathmux[5]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="N2nPKOhDl3U">
+                <Personality template="pathmux" version="3.0" instance="IfETKAuNb_Y">
                     <Block location="srss[0].clock[0].pathmux[6]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="9w-s4rmKi8E">
+                <Personality template="pathmux" version="3.0" instance="D8SYK0ogJPU">
                     <Block location="srss[0].clock[0].pathmux[7]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="gJyzm9zxk2s">
+                <Personality template="pathmux" version="3.0" instance="xhvRZVDS3b0">
                     <Block location="srss[0].clock[0].pathmux[8]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="eco"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="wFt6bfRFEhI">
+                <Personality template="pathmux" version="3.0" instance="ig0qcEJc_As">
                     <Block location="srss[0].clock[0].pathmux[9]" locked="true"/>
                     <Parameters>
-                        <Param id="sourceClock" value="ilo"/>
+                        <Param id="sourceClock" value="ilo0"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pathmux" version="3.0" instance="e3eCI8UFpaE">
+                <Personality template="pathmux" version="3.0" instance="fJr3I2hfBJU">
                     <Block location="srss[0].clock[0].pathmux[10]" locked="true"/>
                     <Parameters>
                         <Param id="sourceClock" value="imo"/>
                     </Parameters>
                 </Personality>
-                <Personality template="periclk" version="2.0" instance="Eyn7CaTVwzo">
+                <Personality template="periclk" version="2.0" instance="Sw5kx3YruiE">
                     <Block location="srss[0].clock[0].periclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="divider" value="2"/>
+                        <Param id="divider" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40pll400" version="1.0" instance="X-BOw5_QMrQ">
+                <Personality template="mxs40pll400" version="1.0" instance="YTrPvSonH_U">
                     <Block location="srss[0].clock[0].pll400m[0]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="320.000"/>
+                        <Param id="desiredFrequency" value="240.000"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40pll400" version="1.0" instance="DQnHoyFCqS4">
+                <Personality template="mxs40pll400" version="1.0" instance="W8ZdzDAZ3Qk">
                     <Block location="srss[0].clock[0].pll400m[1]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="196.000"/>
+                        <Param id="desiredFrequency" value="200.000"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40pll400" version="1.0" instance="TINWkiV4nx0">
+                <Personality template="mxs40pll400" version="1.0" instance="iJv3zyF5ce4">
                     <Block location="srss[0].clock[0].pll400m[2]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="320.000"/>
+                        <Param id="desiredFrequency" value="264.000"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40pll400" version="1.0" instance="lbDVbvfL8nI">
+                <Personality template="mxs40pll400" version="1.0" instance="cUGFvFbntro">
                     <Block location="srss[0].clock[0].pll400m[3]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="250.000"/>
+                        <Param id="desiredFrequency" value="200.000"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mxs40pll400" version="1.0" instance="FETq6AUt9uI">
+                <Personality template="mxs40pll400" version="1.0" instance="uL_hgJ1UHAo">
                     <Block location="srss[0].clock[0].pll400m[4]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="220.000"/>
+                        <Param id="desiredFrequency" value="224.000"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pll" version="3.0" instance="g_y5Hro-Xr4">
+                <Personality template="pll" version="3.0" instance="V0-tF4yif2M">
                     <Block location="srss[0].clock[0].pll[0]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="200.000"/>
+                        <Param id="desiredFrequency" value="100.000"/>
                         <Param id="lowFrequencyMode" value="false"/>
                         <Param id="optimization" value="MinPower"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pll" version="3.0" instance="DNkx54UMIKM">
+                <Personality template="pll" version="3.0" instance="cx5AtkGDvPY">
                     <Block location="srss[0].clock[0].pll[1]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
@@ -1450,25 +1514,25 @@
                         <Param id="optimization" value="MinPower"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pll" version="3.0" instance="PV_qhvKtyqk">
+                <Personality template="pll" version="3.0" instance="mChth_uKkFg">
                     <Block location="srss[0].clock[0].pll[2]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="200.000"/>
+                        <Param id="desiredFrequency" value="160.000"/>
                         <Param id="lowFrequencyMode" value="false"/>
                         <Param id="optimization" value="MinPower"/>
                     </Parameters>
                 </Personality>
-                <Personality template="slowclk" version="2.0" instance="g81V-rkx7DE">
+                <Personality template="slowclk" version="2.0" instance="PbFtxNEHCcA">
                     <Block location="srss[0].clock[0].slowclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="divider" value="2"/>
+                        <Param id="divider" value="1"/>
                     </Parameters>
                 </Personality>
-                <Personality template="timerclk" version="3.0" instance="KFHXjLdJE48">
+                <Personality template="timerclk" version="3.0" instance="bI_WXrQZzSM">
                     <Block location="srss[0].clock[0].timerclk[0]" locked="true"/>
                 </Personality>
-                <Personality template="power_v3" version="1.0" instance="JqBUw8E2RKg">
+                <Personality template="power_v3" version="1.0" instance="WyP2dq4XYvs">
                     <Block location="srss[0].power[0]" locked="true"/>
                     <Parameters>
                         <Param id="deepsleepLatency" value="0"/>
@@ -1491,30 +1555,30 @@
                 </Net>
                 <Net>
                     <Port name="cpuss[0].dap[0].swj_swclk_tclk[0]"/>
-                    <Port name="ioss[0].port[3].pin[0].digital_in[0]"/>
+                    <Port name="ioss[0].port[2].pin[4].digital_in[0]"/>
                 </Net>
                 <Net>
                     <Port name="cpuss[0].dap[0].swj_swdio_tms[0]"/>
-                    <Port name="ioss[0].port[3].pin[2].digital_inout[0]"/>
+                    <Port name="ioss[0].port[2].pin[5].digital_inout[0]"/>
                 </Net>
                 <Net>
                     <Port name="cpuss[0].dap[0].swj_swo_tdo[0]"/>
-                    <Port name="ioss[0].port[2].pin[6].digital_out[0]"/>
+                    <Port name="ioss[0].port[2].pin[2].digital_out[0]"/>
                 </Net>
                 <Net>
-                    <Port name="ioss[0].port[1].pin[0].analog[0]"/>
+                    <Port name="ioss[0].port[0].pin[2].analog[0]"/>
                     <Port name="srss[0].clock[0].eco[0].eco_in[0]"/>
                 </Net>
                 <Net>
-                    <Port name="ioss[0].port[1].pin[1].analog[0]"/>
+                    <Port name="ioss[0].port[0].pin[3].analog[0]"/>
                     <Port name="srss[0].clock[0].eco[0].eco_out[0]"/>
                 </Net>
                 <Net>
-                    <Port name="ioss[0].port[9].pin[0].digital_inout[0]"/>
+                    <Port name="ioss[0].port[1].pin[2].digital_inout[0]"/>
                     <Port name="scb[7].uart_rx[0]"/>
                 </Net>
                 <Net>
-                    <Port name="ioss[0].port[9].pin[1].digital_inout[0]"/>
+                    <Port name="ioss[0].port[1].pin[3].digital_inout[0]"/>
                     <Port name="scb[7].uart_tx[0]"/>
                 </Net>
                 <Net>
